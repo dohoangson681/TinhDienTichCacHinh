@@ -1,17 +1,17 @@
-// tao Class Cha cho ke thua
 export default class Shape{
-    constructor(name , bgColor , sizeX , sizeY ){
+    // properties
+    constructor(name , bgColor , sizeX , sizeY){
         this.name = name ; 
-        this.bgColor = bgColor; 
-        this.sizeX = sizeX ; 
+        this.bgColor = bgColor ; 
+        this.sizeX  = sizeX ; 
         this.sizeY = sizeY ; 
-        this.area =  0 ; 
+        this.area = 0  ; 
     }
-    // method
+    // methods
     getArea(){
-        this.area = 0 ; 
+        return this.area = 0 ;
     }
     draw(){
-        document.getElementById("main").innerHTML = "No Shape" ; 
+        document.getElementById("main").innerHTML = "Shape Undefined" ; 
     }
 }
